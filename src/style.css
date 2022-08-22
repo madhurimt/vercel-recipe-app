@@ -84,7 +84,7 @@ body{
 
 .main-screen .recipe-list > .item{
     border:1px solid #485b6b;
-    width:calc(calc(100%/2)-5px);
+    width:30%;
 }
 
 .main-screen .recipe-list > .item .thumbnail img {
