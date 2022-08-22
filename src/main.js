@@ -50,11 +50,11 @@ function displayMeals(data) {
       showFullRecipe(recipes[i].idMeal);
     });
     div.innerHTML = `
-        <div class="thumbnail">
-        <img src="${recipes[i].strMealThumb}"/>
-        </div>
         <div class="details">
         <h2>${recipes[i].strMeal}</h2>
+        </div>
+        <div class="thumbnail">
+        <img src="${recipes[i].strMealThumb}"/>
         </div>`;
     screen.main.querySelector(".recipe-list").appendChild(div);
   }

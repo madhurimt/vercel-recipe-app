@@ -87,21 +87,23 @@ body{
     width:30%;
 }
 
+.main-screen .recipe-list >item .details {
+    padding:10px;
+}
+
+.main-screen .recipe-list > .item .details h2{
+    color:#eee;
+    font-size: 20px;
+    text-align: center;
+}
+
 .main-screen .recipe-list > .item .thumbnail img {
     width:100%;
     height:100%;
     object-fit: cover;
 }
 
-.main-screen .recipe-list >item .details {
-    padding:10px;
-}
 
-.main-screen .recipe-list > .item .details h2{
-    color:#fff;
-    font-size: 15px;
-    text-align: center;
-}
 .recipe-screen {
     overflow:hidden;
 }
